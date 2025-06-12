@@ -1,3 +1,4 @@
+package Strings;
 public class StringReverse {
     public static void main(String[] args) {
         System.out.println("-----Stringbuffer Example-----");
