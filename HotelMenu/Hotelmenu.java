@@ -1,3 +1,4 @@
+package HotelMenu;
 import java.util.*;
 
 class Admin {
