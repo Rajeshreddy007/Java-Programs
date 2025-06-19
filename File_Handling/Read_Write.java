@@ -8,7 +8,7 @@ import java.io.IOException;
 public class Read_Write{
     public static void main(String[] args) throws IOException {
         File file = new File("C:\\Users\\Rajes\\Desktop\\JavaCourse\\File_Handling\\example.txt");// refering the file pathe to file object
-        try (FileWriter write = new FileWriter(file)) {
+        try (FileWriter write = new FileWriter(file,true)) {
             write.write("My name is Rajesh Reddy, Age : 21"); // writing data into file
         }
         try (FileReader read = new FileReader(file)) { // reader object creation
