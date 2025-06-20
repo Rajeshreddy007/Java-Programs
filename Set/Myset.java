@@ -11,5 +11,6 @@ public class Myset {
         num.add(5);
         num.add(4);//Unique elements to be added
         System.out.println(num);// no specific order for retrivel
+        System.out.println(num.contains(9));
     }
 }
