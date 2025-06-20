@@ -30,6 +30,6 @@ public class Method_Overloading {
         if(result==-1){
             System.out.println("All are equal");
         }
-        else System.out.println(result);
+        else System.out.println("Large Number : "+result);
     }
 }
