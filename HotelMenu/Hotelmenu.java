@@ -7,7 +7,9 @@ class Admin {
         menu.put(x, n);
     }
     public void display() {
-        System.out.println(menu);
+        System.out.println("---Menu---");
+        for (Map.Entry<String, Integer> e : menu.entrySet())
+        System.out.println("DISH : " + e.getKey()+ ", PRICE : " + e.getValue());
     }
 }
 
